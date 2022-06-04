@@ -1,0 +1,354 @@
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="76x76" href="../../assets/image/icon.png">
+<link rel="icon" type="image/png" href="../../assets/image/icon.png">
+<title>
+Python Pandas - Data Science MCQ Questions | Letsfindcourse
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Practice these data science mcq questions on Python NumPy with answers and their explanation which will help you to prepare for competitive exams, placements, interviews etc.">
+<meta name="keywords" content="pandas mcq questions, python pandas mcq, python pandas mcq questions, python data science mcq, pandas objective questions, pandas quiz questions, data science mcq, data science mcq questions">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<link href="../../assets/css/bootstrap.css" rel="stylesheet">
+<link href="../../assets/css/homedesign.css" rel="stylesheet">
+<link href="../../assets/css/mcqcheck.css" rel="stylesheet">
+<style>
+*{margin:0;padding:0}body{background-color:#EAEAEA}
+</style>
+</head>
+<body>
+<nav class="navbarnew">
+<span class="navbarnew-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>      
+<a href="https://letsfindcourse.com" class="logonew"><img src="../../assets/image/letsfindcourse.png" alt="letsfindcourse" style="width: 200px;height: auto;"></a>
+<ul class="mainnew-nav" id="js-menu">
+<script type="text/javascript" src="//services.vlitag.com/adv1/?q=a3b2af64488ba75ce35697980f5a05bc" defer="" async=""></script><script> var vitag = vitag || {};</script>
+<li><a href="https://letsfindcourse.com/courses" class="navnew-links">Courses</a></li>
+<li><a href="https://letsfindcourse.com/technical-mcq" class="navnew-links">Technical MCQs</a></li>
+<li><a href="https://letsfindcourse.com/coding-questions/commonly-asked-programming-interview-questions" class="navnew-links">Coding</a></li>
+<!--<li><a href="https://letsfindcourse.com/placement-preparation" class="navnew-links">Placements</a></li>-->
+<li><a href="https://letsfindcourse.com/placement-preparation" class="navnew-links">Placements</a></li>
+<li><a href="https://letsfindcourse.com/login" class="navnew-links">Login</a></li>
+ </ul>
+</nav>
+<div class = "container">
+<div class = "row">
+<div class = "col-3 col-lg-3 col-md-3 mcqtopic" >
+<ul class="toc chapter topic">
+<li class="heading">Data Science MCQ Topics</li> 
+<li><a href="data-science-mcq-questions-and-answers" class="btn">Basics</a></li>
+<li><a href="linear-algebra-mcq-questions-and-answers" class="btn">Linear Algebra</a></li>
+<li><a href="python-pandas-mcq-questions" class="btn">Pandas</a></li>
+<li><a href="python-numpy-mcq-questions" class="btn">NumPy</a></li>
+<li><a href="python-scipy-mcq-questions" class="btn">SciPy</a></li>
+<li><a href="statistics-mcq-questions-and-answers" class="btn">Statistics</a></li>
+<li><a href="data-visualization-mcq-questions-and-answers" class="btn">Data Visualization</a></li>
+<li><a href="data-mining-mcq-questions-and-answers" class="btn">Data Mining</a></li>
+<li><a href="machine-learning-mcq-questions-and-answers" class="btn">Machine Learning</a></li>
+<li><a href="deep-learning-mcq-questions-and-answers" class="btn">Deep Learning</a></li>
+<li><a href="data-analysis-mcq-questions-and-answers" class="btn">Data Analysis</a></li>
+<li><a href="business-intelligence-mcq-questions-and-answers" class="btn">Business Intelligence</a></li>
+<li><a href="pattern-recognition-mcq-questions-and-answers" class="btn">Pattern Recognition</a></li>
+</ul><br/>
+<ul class="toc chapter topic" >
+<li class="heading">Data Science Reference</li>
+<li><a href="https://letsfindcourse.com/best-data-science-tutorials" class="btn">Learn Data Science </a></li>
+<li><a href="https://letsfindcourse.com/blogs/top-10-data-science-books" class="btn">Data Science Books</a></li>
+<li><a href="https://letsfindcourse.com/quiz/data-science-online-quiz" class="btn">Data Science Quiz</a></li>
+</ul><br/>
+<ul class="toc chapter topic" >
+<li class="heading">Other Reference</li>
+<li><a href="https://letsfindcourse.com/quantitative-aptitude/quantitative-aptitude-questions" class="btn">Quantitative Aptitude</a></li>
+<li><a href="https://letsfindcourse.com/best-machine-learning-tutorials" class="btn">Learn Machine Learning</a></li>
+<li><a href="https://letsfindcourse.com/blogs/top-10-machine-learning-books" class="btn">Machine Learning Books</a></li>
+</ul><br/>
+<style>
+.toc {
+text-align: center;
+}
+li.heading {
+margin: 0;
+background: #337ab7;
+font-size: 20px;
+border: 1px solid #797777;
+padding: 5px 0 5px 5px!important;
+color: #fff;
+}
+ul.toc>li {
+position: relative;
+display: block;
+border-bottom: 1px dotted #bbb;
+}
+ul.toc>li a {
+color: #000;
+text-decoration: none;
+font-size: 15px;
+line-height: 26px;
+background-position: 3px 11px;
+background-repeat: no-repeat;
+padding: 2px 23px;
+transition: all .3s;
+display: inline-block;
+}
+.btn.active
+{
+color: black;
+background-color: #c2c2d6;
+}
+</style>
+<br/>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-5912385878283070" data-ad-slot="6460735217"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+<script src='../../assets/js/jquery-3.0.0.js' type='text/javascript'></script>
+<script src='../../assets/js/script.js'></script><div class = "col-md-7">
+<div class="alerttt" style = "background-color:green;">
+<span class="closebtnnn">&times;</span>  
+<a href="https://www.youtube.com/channel/UCcvvHiJ5dbg_bvMwA4vWETA?sub_confirmation=1" target="_blank"><strong style="color: white;">Learn Programming For Free - Visit our Youtube Channel</strong></a>
+</div>
+<div class="content">
+<h1 style="text-align: center;padding-top:30px;padding-bottom:10px;">Python Pandas MCQ Questions And Answers</h1> 
+<p style="text-align: center;padding-top:15px;padding-bottom:10px;font-size:18px;">This section focuses on "Python Pandas" for Data Science. These Python Pandas Multiple Choice Questions (MCQ) should be practiced to improve the Data Science skills required for various interviews (campus interview, walk-in interview, company interview), placements, entrance exams and other competitive examinations.</p>		
+<p class="mcq"><span class = "ques">1.&nbsp;Pandas is an open-source _______ Library?<br/>
+</span>
+<p class = "options">
+A. Ruby<br/>
+B. Javascript<br/>
+C. Java<br/>
+D. Python<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q1');" class="view">View Answer</span>
+<div id="q1" class="showanswer" style="display: none;" >Ans : D<br/><p> Explanation: Pandas is an open-source Python Library providing high-performance data manipulation and analysis tool using its powerful data structures.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">2.&nbsp;Pandas  key data structure is called?<br/>
+</span>
+<p class = "options">
+A. Keyframe<br/>
+B. DataFrame<br/>
+C. Statistics<br/>
+D. Econometrics<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q2');" class="view">View Answer</span>
+<div id="q2" class="showanswer" style="display: none;" >Ans : B<br/><p> Explanation: Pandas is built on the Numpy package and its key data structure is called the DataFrame.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">3.&nbsp;In pandas, Index values must be?<br/>
+</span>
+<p class = "options">
+A. unique<br/>
+B. hashable<br/>
+C. Both A and B<br/>
+D. None of the above<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q3');" class="view">View Answer</span>
+<div id="q3" class="showanswer" style="display: none;" >Ans : C<br/><p> Explanation: Index values must be unique and hashable, same length as data. Default np.arrange(n) if no index is passed.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">4.&nbsp;Which of the following is correct Features of DataFrame?<br/>
+</span>
+<p class = "options">
+A. Potentially columns are of different types<br/>
+B. Can Perform Arithmetic operations on rows and columns<br/>
+C. Labeled axes (rows and columns)<br/>
+D. All of the above<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q4');" class="view">View Answer</span>
+<div id="q4" class="showanswer" style="display: none;" >Ans : D<br/><p> Explanation: All the above are feature of dataframe.</p></div><br/>
+</p>
+</p>
+<div class="adsbyvli" data-ad-slot="vi_2216894805" style="width: 300px; height: 250px"></div><script>(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display("vi_2216894805")})</script><p class="mcq"><span class = "ques">5.&nbsp;A panel is a ___ container of data<br/>
+</span>
+<p class = "options">
+A. 1D<br/>
+B. 2D<br/>
+C. 3D<br/>
+D. Infinite<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q5');" class="view">View Answer</span>
+<div id="q5" class="showanswer" style="display: none;" >Ans : C<br/><p> Explanation: A panel is a 3D container of data. The term Panel data is derived from econometrics and is partially responsible for the name pandas : pan(el)-da(ta)-s.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">6.&nbsp;Which of the following is true?<br/>
+</span>
+<p class = "options">
+A. If data is an ndarray, index must be the same length as data.<br/>
+B. Series is a one-dimensional labeled array capable of holding any data type.<br/>
+C. Both A and B<br/>
+D. None of the above<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q6');" class="view">View Answer</span>
+<div id="q6" class="showanswer" style="display: none;" >Ans : C<br/><p> Explanation: Both option A and B are true.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">7.&nbsp;Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame?<br/>
+</span>
+<p class = "options">
+A. DataFrame.from_items<br/>
+B. DataFrame.from_records<br/>
+C. DataFrame.from_dict<br/>
+D. All of the above<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q7');" class="view">View Answer</span>
+<div id="q7" class="showanswer" style="display: none;" >Ans : A<br/><p> Explanation: DataFrame.from_dict operates like the DataFrame constructor except for the orient parameter which is 'columns' by default.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">8.&nbsp;Which of the following makes use of pandas and returns data in a series or dataFrame?<br/>
+</span>
+<p class = "options">
+A. pandaSDMX<br/>
+B. freedapi<br/>
+C. OutPy<br/>
+D. Inpy<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q8');" class="view">View Answer</span>
+<div id="q8" class="showanswer" style="display: none;" >Ans : B<br/><p> Explanation: freedapi module requires a FRED API key that you can obtain for free on the FRED website.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">9.&nbsp;What will be output for the following code?<br/>
+<pre class='result notranslate'>import pandas as pd
+import numpy as np
+
+s = pd.Series(np.random.randn(4))
+
+print s.ndim</pre></span>
+<p class = "options">
+A. 0<br/>
+B. 1<br/>
+C. 2<br/>
+D. 3<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q9');" class="view">View Answer</span>
+<div id="q9" class="showanswer" style="display: none;" >Ans : B<br/><p> Explanation: Returns the number of dimensions of the object. By definition, a Series is a 1D data structure, so it returns 1.</p></div><br/>
+</p>
+</p>
+<p class="mcq"><span class = "ques">10.&nbsp;Which of the following indexing capabilities is used as a concise means of selecting data from a pandas object?<br/>
+</span>
+<p class = "options">
+A. In<br/>
+B. ix<br/>
+C. ipy<br/>
+D. iy<br/>
+</p>
+<p ><span  onclick="toggle_visibility('q10');" class="view">View Answer</span>
+<div id="q10" class="showanswer" style="display: none;" >Ans : B<br/><p> Explanation: ix and reindex are 100% equivalent.</p></div><br/>
+</p>
+</p>
+<div >
+<a style ="color:white" href="python-pandas-mcq"><button class="btn btn-info nextbutton">Next &raquo;</button></a>
+</div>
+<br/>
+<br/>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-dw+78-2f-9r+qn" data-ad-client="ca-pub-5912385878283070" data-ad-slot="1946118595"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+<hr/>
+<center class="cent">Discussion</center>
+<div class = "row" style = "margin-top:7%;">
+<div class = "col-md-7">
+<form method="post">
+<textarea class="area1" placeholder="Your comments" rows="4" name = "comments" required></textarea><br/><br/>
+<p>* You must be logged in to add comment.<p>   
+<input class="inpu1" type="submit" value="Submit" name = "submit">
+</form>
+<div class="di1">
+</div>  </div>
+</div>
+</div>
+</div>
+<div class = "col-sm-12 col-xs-12 mcqtopic" style="display: none;">
+<ul class="toc chapter topic">
+<li class="heading">Data Science MCQ Topics</li> 
+<li><a href="data-science-mcq-questions-and-answers" class="btn">Basics</a></li>
+<li><a href="linear-algebra-mcq-questions-and-answers" class="btn">Linear Algebra</a></li>
+<li><a href="python-pandas-mcq-questions" class="btn">Pandas</a></li>
+<li><a href="python-numpy-mcq-questions" class="btn">NumPy</a></li>
+<li><a href="python-scipy-mcq-questions" class="btn">SciPy</a></li>
+<li><a href="statistics-mcq-questions-and-answers" class="btn">Statistics</a></li>
+<li><a href="data-visualization-mcq-questions-and-answers" class="btn">Data Visualization</a></li>
+<li><a href="data-mining-mcq-questions-and-answers" class="btn">Data Mining</a></li>
+<li><a href="machine-learning-mcq-questions-and-answers" class="btn">Machine Learning</a></li>
+<li><a href="deep-learning-mcq-questions-and-answers" class="btn">Deep Learning</a></li>
+<li><a href="data-analysis-mcq-questions-and-answers" class="btn">Data Analysis</a></li>
+<li><a href="business-intelligence-mcq-questions-and-answers" class="btn">Business Intelligence</a></li>
+<li><a href="pattern-recognition-mcq-questions-and-answers" class="btn">Pattern Recognition</a></li>
+</ul><br/>
+<ul class="toc chapter topic" >
+<li class="heading">Data Science Reference</li>
+<li><a href="https://letsfindcourse.com/best-data-science-tutorials" class="btn">Learn Data Science </a></li>
+<li><a href="https://letsfindcourse.com/blogs/top-10-data-science-books" class="btn">Data Science Books</a></li>
+<li><a href="https://letsfindcourse.com/quiz/data-science-online-quiz" class="btn">Data Science Quiz</a></li>
+</ul><br/>
+<ul class="toc chapter topic" >
+<li class="heading">Other Reference</li>
+<li><a href="https://letsfindcourse.com/quantitative-aptitude/quantitative-aptitude-questions" class="btn">Quantitative Aptitude</a></li>
+<li><a href="https://letsfindcourse.com/best-machine-learning-tutorials" class="btn">Learn Machine Learning</a></li>
+<li><a href="https://letsfindcourse.com/blogs/top-10-machine-learning-books" class="btn">Machine Learning Books</a></li>
+</ul><br/>
+<style>
+.toc{text-align:center}li.heading{margin:0;background:#337ab7;font-size:20px;border:1px solid #797777;padding:5px 0 5px 5px !important;color:#fff}ul.toc>li{position:relative;display:block;border-bottom:1px dotted #bbb}ul.toc>li a{color:#000;text-decoration:none;font-size:15px;line-height:26px;background-position:3px 11px;background-repeat:no-repeat;padding:2px 23px;transition:all .3s;display:inline-block}.btn.active{color:#000;background-color:#c2c2d6}
+</style>
+<br/>
+
+</div>
+<div class="col-md-2 hidden-xs">
+<div>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5912385878283070" data-ad-slot="9237365389" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+<div style="margin-top:5px">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5912385878283070" data-ad-slot="5932792618" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+</div>
+</div>
+</div>
+<footer class="myFooter">
+<div class="footerfollow">
+<p><a href ="https://letsfindcourse.com/blog" style="color:white;">Blogs</a></p>
+</div>
+<div class="footer-social" >
+<a rel="nofollow" href="https://www.facebook.com/Letsfindcourse-225037098129369" class="social-icons"><img class="fa-facebook" src = "../../assets/image/facebook.png" alt="Letsfindcourse Facebook"></a>
+<a rel="nofollow" href="https://www.instagram.com/letsfindcourse" class="social-icons"><img class="fa-instagram" src = "../../assets/image/instagram.png" alt="Letsfindcourse Instagram"></a>
+<a rel="nofollow" href="https://twitter.com/letsfindcourse" class="social-icons"><img class="fa-twitter" src = "../../assets/image/twitter.png" alt="Letsfindcourse Twitter"></a>
+<a rel="nofollow" href="https://www.linkedin.com/company/letsfindcourse/" class="social-icons"><img class="fa fa-linkedin-square" src = "../../assets/image/linkdin.png" alt="Letsfindcourse Linkdin"></a>
+<a rel="nofollow" href="https://www.youtube.com/channel/UCcvvHiJ5dbg_bvMwA4vWETA/featured" class="social-icons"><img class="fa-youtube" src = "../../assets/image/youtube.png" alt="Letsfindcourse Youtube"></a>
+<br/><br/><p style="color:white;">Copyright &copy; 2022 Letsfindcourse </p>
+</div>
+<script data-cfasync="false" type="text/javascript" id="clever-core">
+                                    (function (document, window) {
+                                        var a, c = document.createElement("script");
+
+                                        c.id = "CleverCoreLoader54311";
+                                        c.src = "//scripts.cleverwebserver.com/16a4664c2fe6f1b9b6d935db470c852e.js";
+
+                                        c.async = !0;
+                                        c.type = "text/javascript";
+                                        c.setAttribute("data-target", window.name);
+                                        c.setAttribute("data-callback", "put-your-callback-macro-here");
+
+                                        try {
+                                            a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+                                        } catch (e) {
+                                            a = !1;
+                                        }
+
+                                        a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+                                        a.parentNode.insertBefore(c, a);
+                                    })(document, window);
+                                </script>
+
+
+</footer>
+<script>let mainNav=document.getElementById("js-menu");let navBarToggle=document.getElementById("js-navbar-toggle");navBarToggle.addEventListener("click",function(){mainNav.classList.toggle("active")});</script>
+<script type="text/javascript">function toggle_visibility(b){var a=document.getElementById(b);if(a.style.display=="block"){a.style.display="none"}else{a.style.display="block"}}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122097904-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","UA-122097904-1");</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-5912385878283070",enable_page_level_ads:true});</script>
+</body>
+</html>
